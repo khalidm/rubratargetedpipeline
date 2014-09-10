@@ -1,0 +1,7 @@
+screen
+purge
+
+source ~/rubra_dev/bin/activate
+
+rubra pipeline.py --config pipeline_stages_config.py --style run
+
